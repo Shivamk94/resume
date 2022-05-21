@@ -1,0 +1,25 @@
+body {
+    background-color: #FFF6EA40;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: #AD8B73FF;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+h2 {
+    color: #BF9270FF;
+    font-family: ubuntu, Times, serif;
+}
+
+td {
+    font-family: ubuntu, Times, serif;
+    word-spacing: 1.5px;
+}
