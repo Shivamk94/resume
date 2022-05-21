@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h2>Send me a message!</h2>
+    <form action="mailto:sdkavalanekar@gmail.com" method="post" enctype="text/plain">
+        <table cellspacing="12">
+            <tr>
+                <td valign="top"><label for="">Name</label></td>
+                <td><input type="text" name="Name" placeholder="Enter Your Name" required></td>
+            </tr>
+            <tr>
+                <td valign="top"><label for="">Email</label></td>
+                <td><input type="email" name="Email" placeholder="Enter Your Email address" required></td>
+            </tr>
+            <tr>
+                <td valign="top"><label for="">Mobile</label></td>
+                <td><input type="tel" name="Mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="012-345-6789" required></td>
+            </tr>
+            <tr>
+                <td valign="top"><label for="">Birth Date</label></td>
+                <td><input type="date" name="Birth Date" placeholder="dd/mm/yyyy"></td>
+            </tr>
+            <tr>
+                <td valign="top"><label for="">Message</label></td>
+                <td><textarea name="Message" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="Submit" value="Send Message"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
