@@ -13,6 +13,9 @@ h1 {
     color: #AD8B73FF;
     font-family: 'Lucida Handwriting', cursive;
 }
+h1:hover {
+    text-shadow: 0 0 2px #AD8B73FF;
+}
 
 h2 {
     color: #BF9270FF;
@@ -22,4 +25,20 @@ h2 {
 td {
     font-family: ubuntu, Times, serif;
     word-spacing: 1.5px;
+}
+
+.heading {
+    color: #AD8B73FF;
+}
+
+.profile {
+    border-radius: 100%;
+}
+.profile:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 7px #AD8B73FF;
+}
+
+a:hover {
+    color: #FF433DFF;
 }
