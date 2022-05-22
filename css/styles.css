@@ -21,6 +21,9 @@ h2 {
     color: #BF9270FF;
     font-family: ubuntu, Times, serif;
 }
+h2:hover {
+    text-shadow: 0 0 3px #BF92707F;
+}
 
 td {
     font-family: ubuntu, Times, serif;
